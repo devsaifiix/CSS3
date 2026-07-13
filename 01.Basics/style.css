@@ -1,0 +1,29 @@
+/* CSS Universal Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+}
+
+/* grouping selector */
+h1, h2, h3{
+    color: rgb(5, 4, 4);
+    text-align: center;
+}
+
+/* selector by class */
+.me{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* selector by id */
+#mine{
+    margin-top: 20px;
+    padding-left: 20px; 
+}
