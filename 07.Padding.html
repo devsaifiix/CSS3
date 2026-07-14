@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Padding</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        div{
+            border: 2px solid #333;
+            background-color: white;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        /* padding-top */
+        .main{
+            padding-top: 50px;
+        }
+
+        /* padding-right */
+        .second{
+            padding-right: 100px;
+        }
+
+        /* padding-bottom */
+        .third{
+            padding-bottom: 80px;
+        }
+
+        /* padding-left */
+        .examp{
+            padding-left: 100px;
+        }
+
+        /* Shorthand: Top Right Bottom Left */
+        .concl{
+            padding: 50px 100px 40px 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>CSS Padding</h1>
+        <p>
+            CSS padding is used to create space between an element's content
+            and its border. It makes the content appear more spacious and
+            improves the overall design of a webpage.
+        </p>
+    </div>
+
+    <div class="second">
+        <h2>Why Use Padding?</h2>
+        <p>
+            Padding prevents text and other content from touching the border
+            of an element. It creates comfortable spacing inside the element,
+            making the content easier to read.
+        </p>
+    </div>
+
+    <div class="third">
+        <h2>Types of Padding</h2>
+        <p>
+            CSS provides four padding properties: padding-top,
+            padding-right, padding-bottom, and padding-left.
+            You can also use the shorthand padding property to
+            set all four values at once.
+        </p>
+    </div>
+
+    <div class="examp">
+        <h2>Example</h2>
+        <p>
+            <code>padding: 20px;</code> adds 20px of space between
+            the content and the border on all four sides.
+            <br><br>
+            <code>padding: 10px 20px;</code> applies 10px to the
+            top & bottom and 20px to the left & right.
+        </p>
+    </div>
+
+    <div class="concl">
+        <h2>Conclusion</h2>
+        <p>
+            Padding improves the appearance of elements by creating
+            space inside the border. It enhances readability and gives
+            a clean, professional layout to web pages.
+        </p>
+    </div>
+
+</body>
+</html>
