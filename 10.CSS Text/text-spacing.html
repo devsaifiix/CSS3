@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text Spacing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: darkblue;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-left: 5px solid steelblue;
+        }
+
+        /* Text Indent */
+        .indent {
+            text-indent: 60px;
+        }
+
+        /* Letter Spacing */
+        .letter {
+            letter-spacing: 5px;
+        }
+
+        /* Word Spacing */
+        .word {
+            word-spacing: 15px;
+        }
+
+        /* Line Height */
+        .line {
+            line-height: 2;
+        }
+
+        /* White Space */
+        .white {
+            white-space: pre;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Text Spacing</h1>
+
+    <h2>1. Text Indent</h2>
+    <p class="indent">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+        asperiores doloremque beatae, nemo ratione voluptatibus deleniti
+        mollitia dignissimos temporibus. Accusantium vero molestias
+        reprehenderit recusandae minima.
+    </p>
+
+    <hr>
+
+    <h2>2. Letter Spacing</h2>
+    <p class="letter">
+        This paragraph has increased letter spacing.
+    </p>
+
+    <hr>
+
+    <h2>3. Word Spacing</h2>
+    <p class="word">
+        This paragraph has increased word spacing.
+    </p>
+
+    <hr>
+
+    <h2>4. Line Height</h2>
+    <p class="line">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+        asperiores, veniam consequatur eaque ipsam beatae ipsum fugiat
+        officiis quaerat molestiae. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Natus, atque.
+    </p>
+
+    <hr>
+
+    <h2>5. White Space</h2>
+
+    <p class="white">
+        This text
+        contains multiple
+
+        spaces but CSS
+        will preserve them.
+    </p>
+
+</body>
+
+</html>
