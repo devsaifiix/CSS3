@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lago di Braies Card</title>
+    <title>CSS Card Design</title>
     <!-- Google Font for clean typography -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    
+
     <style>
         * {
             margin: 0;
@@ -22,6 +22,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            flex-wrap: wrap; /* Dusra card side par jagah na hone par neeche shift ho sake */
         }
 
         /* Main Card Container */
@@ -29,6 +30,7 @@
             background-color: #ffffff;
             width: 300px;
             padding: 12px;
+            margin: 12px;
             border-radius: 16px;
             box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
             border: 1px solid #e5e7eb;
@@ -110,6 +112,7 @@
 
 <body>
 
+    <!-- First Card -->
     <div class="card">
         <!-- Image Box -->
         <div class="image">
@@ -125,7 +128,34 @@
         <!-- Title & Text -->
         <div class="content">
             <h2>Lago di Braies</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam pharetra vitae ipsum odio.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam
+                pharetra vitae ipsum odio.</p>
+        </div>
+
+        <!-- Action Button -->
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <!-- Second Card -->
+    <div class="card">
+        <!-- Image Box -->
+        <div class="image">
+            <img src="./Media/man-boat.png" alt="Lago di Braies">
+        </div>
+
+        <!-- Tags / Capsules -->
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+
+        <!-- Title & Text -->
+        <div class="content">
+            <h2>Lago di Braies</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam
+                pharetra vitae ipsum odio.</p>
         </div>
 
         <!-- Action Button -->
