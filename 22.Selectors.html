@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Selectors</title>
+    <style>
+
+        /* to select a first child */
+        /* .box:first-child {
+            background-color: aquamarine;
+        } */
+        
+        /* to select a first a line from a long paragraph */
+        /* .box::first-line {
+            color: brown;
+        } */
+
+        /* to select all elements in this class */
+        /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+        } */
+
+        /* grouped elements */
+        /* p, a, .box, [data-color="primary"]{
+            margin-top: 45px;
+        } */
+
+        /* to select odd elements */
+        /* .box:nth-child(odd){
+            background-color: blueviolet;
+        } */
+
+        /* to select a element from last */
+        /* .box:nth-last-child(1){
+            background-color: aqua;
+        } */
+
+        /* it insert this content before this class */
+        .boxes::before{
+            content: "Saif is a good boy.";
+            background-color: aqua;
+        }
+        /* it insert this content after this class */
+        .boxes::after{
+            content: "Saif also a good developer.";
+        }
+
+        /* it changes the color of selected content on entire page */
+        ::selection{
+            color: cadetblue;
+        }
+
+        .box::first-letter{
+            color: crimson;
+            font-size: 45px;
+        }
+
+        input::placeholder{
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, animi. Iusto reiciendis animi
+            eligendi incidunt rerum, error vitae, consequuntur eveniet laboriosam tempore porro! Debitis eum suscipit
+            minus numquam ut dolor! Laudantium ipsam possimus quisquam?</div>
+        <div class="box">Hey I am a box.</div>
+        <div data-color="primary" class="box">Hey I am a box.</div>
+    </div>
+
+    <input type="text" placeholder="Enter your name...">
+
+</body>
+
+</html>
