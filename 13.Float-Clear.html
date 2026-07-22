@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Float & Clear</title>
     <style>
+        /* In modern CSS layout design, do not use `float` and `clear` properties; instead,
+         use Flexbox (`display: flex`) for creating flexible, alignment-friendly, and responsive layouts. */
         .cards {
             border: 2px solid black;
             display: flow-root;
@@ -20,7 +22,8 @@
         .card {
             border: 2px solid red;
         }
-        .card:nth-child(3){
+
+        .card:nth-child(3) {
             background-color: aqua;
             clear: right;
         }
