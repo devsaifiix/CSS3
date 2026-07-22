@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lago di Braies Card</title>
+    <!-- Google Font for clean typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #e2e8f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Main Card Container */
+        .card {
+            background-color: #ffffff;
+            width: 300px;
+            padding: 12px;
+            border-radius: 16px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e5e7eb;
+        }
+
+        /* Top Image Styling */
+        .image {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Capsules / Tags */
+        .capsules {
+            margin-top: 14px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .capsules span {
+            border: 1px solid #e5e7eb;
+            color: #888888;
+            padding: 4px 14px;
+            border-radius: 50px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        /* Heading & Description */
+        .content {
+            margin-top: 12px;
+        }
+
+        .content h2 {
+            font-size: 22px;
+            color: #1f2937;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .content p {
+            font-size: 13px;
+            color: #9ca3af;
+            line-height: 1.5;
+        }
+
+        /* Bottom Read More Button */
+        .button {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        .button button {
+            padding: 10px 24px;
+            border-radius: 50px;
+            background-color: #e0edff;
+            color: #3b82f6;
+            font-weight: 600;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .button button:hover {
+            background-color: #d0e2ff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <!-- Image Box -->
+        <div class="image">
+            <img src="./Media/man-boat.png" alt="Lago di Braies">
+        </div>
+
+        <!-- Tags / Capsules -->
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+
+        <!-- Title & Text -->
+        <div class="content">
+            <h2>Lago di Braies</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim sed diam pharetra vitae ipsum odio.</p>
+        </div>
+
+        <!-- Action Button -->
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
